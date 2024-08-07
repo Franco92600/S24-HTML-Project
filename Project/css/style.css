@@ -1,0 +1,153 @@
+.home{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+            "header header header header"
+            "mast mast mast mast"
+            "main main main main"
+            "footer footer footer footer";
+    background-color: #7c879c;
+}
+body{
+    background-color: #7c879c;
+    margin: 0;
+}
+header{
+    grid-area: header;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #7c879c;
+}
+#logo img{
+    width: auto;
+    height: 100px;
+    align-self: center;
+}
+#menu1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    list-style: none;
+    padding-right: 40px;
+    padding-top: 20px;
+
+}
+a, h2, h3, h4{
+    text-decoration: none;
+    font-family: "Ubunto", sans-serif;
+    color: #0e0e0e;
+    font-size: 25px;
+
+}
+p{
+    text-decoration: none;
+    font-family: "Ubunto", sans-serif;
+    font-size: 20px;
+}
+footer{
+    height: 200px;
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #7c879c;
+}
+#footer-logo img{
+    height: 200px;
+    width: auto;
+}
+#footdiv1 ul, h6 {
+    font-family: "Ubunto", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding: none;
+}
+h6{
+    margin-left: 40px;
+
+}
+#footdiv2 form p,textarea{
+    width: auto;
+    height: 80%;
+    margin: 5px;
+    padding: 0;
+    color: #171717;
+}
+#footdiv2 form{
+    float: right;
+    padding-top: 30px;
+}
+
+#masthead{
+    background-image: url("../img/GTR-banner.jpg");
+    grid-area: mast;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-color: #7c879c;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #7c879c;
+    position: absolute;
+    margin-top: 350px;
+    font-family: "Ubunto", sans-serif;
+    font-size: 40px;
+
+}
+main{
+    display: grid;
+    height: 1500px;
+    width: auto;
+    background-color: #7c879c;
+
+}
+#sec1{
+    display: grid;
+    grid-template-columns: 32% 68%;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#sec2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#sec3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#div2 a img {
+    width: auto;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#div3 a img {
+    width: 750px;
+    height: auto;
+    padding: 0;
+}
+#div6 a img {
+    width: 750px;
+    height: auto;
+    padding: 0;
+}
+#div1 a, #div4 a, #div5 a {
+    border: #0e0e0e solid;
+    padding: 5px;
+}
